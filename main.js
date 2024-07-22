@@ -16,3 +16,7 @@ if (guess === location_1 || guess === location_2 || guess === location_3) {
   } else if (guess === location_3) {
     alert("HIT!")
   }
+
+  const inStock = true
+  const onSale = true
+  
