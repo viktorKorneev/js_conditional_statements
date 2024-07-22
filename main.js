@@ -18,7 +18,7 @@
 //   }
 
   const inStock = true
-  const onSale = false
+  const onSale = true
 
 //   if (inStock === true){
 //     if(onSale === true){
