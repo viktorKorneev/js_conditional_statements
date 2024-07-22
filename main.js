@@ -25,3 +25,7 @@
         alert("Buy!!!")
     }
   } 
+
+  if(inStock === true && onSale === true) {
+    alert("Buy!!!")
+  }
