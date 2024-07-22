@@ -32,10 +32,12 @@
 
 const price = 100
 
-if(inStock === true && (onSale === true || price < 80)){
-    alert("Buy!!!")
-}
+// if(inStock === true && (onSale === true || price < 80)){
+//     alert("Buy!!!")
+// }
 
 const temp = 80
 const willRain = true
 const humid = (willRain === true && temp > 80)
+
+console.log(humid);
