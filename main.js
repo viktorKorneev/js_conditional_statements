@@ -42,3 +42,6 @@ const willRain = true
 const humid = (willRain && temp > 80)
 
 console.log(humid);
+
+
+const buyIt = (onSale && inStock) // true
