@@ -18,7 +18,7 @@
 //   }
 
   const inStock = true
-  const onSale = true
+  const onSale = false
 
 //   if (inStock === true){
 //     if(onSale === true){
@@ -45,3 +45,5 @@ console.log(humid);
 
 
 const buyIt = (onSale && inStock) // true
+
+const buyIt = (onSale && inStock) // false
