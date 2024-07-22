@@ -33,9 +33,9 @@
 
 const price = 100
 
-// if(inStock === true && (onSale === true || price < 80)){
-//     alert("Buy!!!")
-// }
+if(inStock && (onSale || price < 80)){
+    alert("Buy!!!")
+}
 
 const temp = 83
 const willRain = true
