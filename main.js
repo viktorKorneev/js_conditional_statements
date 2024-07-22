@@ -36,7 +36,7 @@ const price = 100
 //     alert("Buy!!!")
 // }
 
-const temp = 80
+const temp = 83
 const willRain = true
 const humid = (willRain === true && temp > 80)
 
