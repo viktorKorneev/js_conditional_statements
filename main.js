@@ -27,9 +27,9 @@
 //   } 
 
 //  Если в переменной лежит булевое значение его можно прочитать сразу
-  if(inStock && onSale) { // Надо чтобы выполнились все условия одновременно 
-    alert("Buy!!!")
-  }
+//   if(inStock && onSale) { // Надо чтобы выполнились все условия одновременно 
+//     alert("Buy!!!")
+//   }
 
 const price = 100
 
@@ -39,6 +39,6 @@ if(inStock && (onSale || price < 80)){
 
 const temp = 83
 const willRain = true
-const humid = (willRain === true && temp > 80)
+const humid = (willRain && temp > 80)
 
 console.log(humid);
