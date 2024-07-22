@@ -19,4 +19,9 @@ if (guess === location_1 || guess === location_2 || guess === location_3) {
 
   const inStock = true
   const onSale = true
-  
+
+  ifinStock === true){
+    if(onSale === true){
+        
+    }
+  } 
