@@ -3,8 +3,16 @@ const location_2 = 4
 const location_3 = 5
 
 const guess = 4
-if (guess === location1 || guess === location2 || guess === location3) {
+if (guess === location_1 || guess === location_2 || guess === location_3) {
     alert("HIT!")
 } else {
     alert("MISS!")
+  }
+
+  if(guess === location_1){
+    alert("HIT!")
+  } else if (guess === location_2) {
+    alert("HIT!")
+  } else if (guess === location_3) {
+    alert("HIT!")
   }
